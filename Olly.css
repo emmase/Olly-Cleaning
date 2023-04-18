@@ -65,7 +65,7 @@ h1 {
     line-height: 64px;
     color: #000080;
     text-align: center;
-    padding: 40px 0;
+    /*padding: 40px 0;*/
 }
 
 
@@ -73,21 +73,21 @@ h2  {
     font-size: 46px;
     line-height: 54px;
     color: orangered;
-    padding: 10px 80px;
+    /*padding: 10px 80px;*/
    
 
 }   
 h4  {
     font-size: 20px;
     color: black;
-    padding: 10px 80px;
+    /*padding: 10px 80px;*/
    
 
 }
 h3  {
     color: orangered;
     font-size: 20px;
-    padding: 10px 80px;
+    /*padding: 10px 80px;*/
     
 }
 h6  {
@@ -106,19 +106,20 @@ p   {
     font-size: 50px;
     line-height: 54px;
     color: #000080;
-    padding: 10px 80px;
-    
-   
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 2%;
 
-   
 }
 .priority{
     font-size: 35px;
     line-height: 48px;
-    color: orangered;
-    padding: 10px 80px;
+    color: white;
     margin: auto;
     text-align: center;
+    padding-top: 5px;
+    margin-top: 0.1em;
+    margin-bottom: 5%;
 
 }
 .book-now{
@@ -126,7 +127,7 @@ p   {
     margin: auto;
     display: flex;
     justify-content: center;
-    color: #000080;
+    color: orangered;
     border-radius: 4px;
     font-size: 20px;
     background-color: white;
@@ -134,19 +135,27 @@ p   {
     cursor: pointer;
     outline: none;
     transition: 0.2s;
-    height: auto;
-    width: 10%;
+    height: 10%;
+    width: 15%;
+    align-items: center;
+    border: none;
+    text-decoration: underline;
+    margin-top: 1%;
+   
 
 }
 #hero   {
-    background-image: url('images/home.jpeg');
-    height: 100vh;
+    background-image: url('images/hover.png');
+    height: 80vh;
     width: 100%;
-    background-position: 25% right 0;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    margin-top: auto;
-    justify-content: center;
+    padding-top: 20px;
+    display: flex;
     align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
   
  
 }
