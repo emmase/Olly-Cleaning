@@ -18,7 +18,7 @@ p{
     justify-content: space-between;
     padding: 20px 80px;
     background: #000080 ;
-    box-shadow: 0 5px   15px rgba(255, 111, 0, 0.1);
+    box-shadow: 0 5px   15px rgba(255, 255, 255, 0.1);
     z-index: 999;
     position: sticky;
     top: 0;
@@ -105,7 +105,7 @@ p   {
 .welcome{
     font-size: 50px;
     line-height: 54px;
-    color: #000080;
+    color: white;
     text-align: center;
     margin: auto; 
     margin-bottom: 2%;
@@ -158,5 +158,69 @@ p   {
     flex-direction: column;
   
  
+}
+.intro{
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+}
+.intro h3{
+    color: #000080;
+    font-weight: 600px;
+    font-size: 20px;
+}
+.intro h2{
+    color: orangered;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-p1 {
+    padding: 10px 80px;
+}
+#services .ser-box  {
+text-align: center;
+padding-bottom: 40px;
+}
+.ser-box img  {
+    width: 300px;
+    height: 220px;
+    
+}
+#services.ser-box img  .imag{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px
+}
+#services .ser-box button   {
+    border-radius: 10px;
+    background-color: white;
+    color: orangered;
+    border: 0  ;
+    padding: 10px 60px 10px 55px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+#services .ser-box button:hover,
+#services .ser-box button.active {
+    color: navy;
+    cursor: pointer;
+    transition: 0.3s    ease;
+}
+#services   {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#services .section-p1  {
+    align-items: center;
+    justify-content: space-between;
+}
+#services h6{
+    color: #000080;
 }
 
