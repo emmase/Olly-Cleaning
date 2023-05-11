@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olly Cleaning Services</title>
+    <link rel="stylesheet" href="Olly.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+        <a href="Index.html"><img src="Images/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a  class="active" href="Index.html">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Equipments.html">Equipments</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+        </div>
+    </section>
+    <section id="banner" class="section-m1">
+        <h1>Book now</h1>
+        <h2>Up to <span> 5% off</span> on all weekly clean up services.</h2>
+        <H4>WhatsApp or Call.</H4>
+        <h4 style="font-size: 30px;"><i  class="fa fa-whatsapp" style="font-size:48px;color:green" <a href="https://api.whatsapp.com/send?phone=256771834909"></a></i>  0771834909</h4>
+       <h4 style="font-size: 36px;"><i class="fa fa-phone" style="font: size 48px;color:rgb(0, 55, 255)"></i>  0771834909/07422203909</h4>
+
+
+    </section>
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?70939';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+      "enabled":true,
+      "chatButtonSetting":{
+          "backgroundColor":"#4dc247",
+          "ctaText":"Message Us",
+          "borderRadius":"25",
+          "marginLeft":"0",
+          "marginBottom":"50",
+          "marginRight":"50",
+          "position":"right"
+      },
+      "brandSetting":{
+          "brandName":"Olly Cleaning Services",
+          "brandSubTitle":"Typically replies within 10 minutes",
+          "brandImg":"Images/logo.png",
+          "welcomeText":"Hi there!\nWelcome, how can we serve you today?",
+          "messageText":"Hello, ",
+          "backgroundColor":"#0a5f54",
+          "ctaText":"Start Chat",
+          "borderRadius":"25",
+          "autoShow":false,
+          "phoneNumber":"256771834909"
+      }
+    };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
+
+</body>
+</html>
