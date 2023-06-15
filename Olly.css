@@ -612,6 +612,62 @@ footer .copyright{
     margin: 10px 0;
     border-left: #000080 solid 5px;
 }
+#equipments .eqip-box  {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 40px 40px;
+    display: block;
+    }
+    .eqip-box img  {
+        width: 350px;
+        height: auto;
+    }  
+    .eqip-box h3{
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }  
+    .eqip-box h6{
+        padding: 20px;
+        font-size: 16px;
+        color: #000080;
+
+    }
+    #equipments {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+   .view a{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+    align-items: center;
+    text-decoration: underline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+    .explo h1{
+        padding: 20px;
+        margin-top: 5%;
+      
+    }
+  
+    
 
 
 
