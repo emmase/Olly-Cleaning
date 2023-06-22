@@ -668,26 +668,32 @@ footer .copyright{
     }
     #container.contact-page{
         color:#000080;
-        background-image: url(Images/Contact6.png);
+        background-image: url(Images/Contact777.png);
         background-size: cover;
-        height: 60vh;
+        background-position: 25% right 0;
+        height: 70vh;
         width: 100%;
         text-align: center;
         padding-top: 80px;
+
     }
     #container.contact-page h1{
         padding-bottom: 10px;
+        color: white;
+        text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
+    
     }
     #container.contact-page h6{
-        color: orangered;
+        color:whitesmoke;
         font-size: 13px;
-        text-shadow: 0em 0em 0.3em rgba(255, 255, 255, 0.92);
+        text-shadow: 0em 0em 0.3em rgba(0, 0, 0, 0.92);
     }
     #container.contact-page button{
         margin-top: 80px;
         border-radius: 0px;
-        color: orangered;
+        color: white;
         border: 1px solid orangered  ;
+        background-color: orangered;
         height: 35px;
         width: 150px;
         background-repeat: no-repeat;
