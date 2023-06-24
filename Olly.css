@@ -128,7 +128,7 @@ p   {
     margin-bottom: 5%;
 
 }
-.book-now{
+button.book-now{
     text-align: center;
     margin: auto;
     display: flex;
@@ -149,6 +149,13 @@ p   {
     margin-top: 1%;
    
 
+}
+button.book-now:hover,
+button.book-now.active{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s    ease;
 }
 #hero   {
     background-image: url('images/hover.png');
@@ -706,6 +713,13 @@ footer .copyright{
         scroll-behavior: smooth;
         
     }
+    #container.contact-page button:hover,
+    #container.contact-page button.active{
+        background-color: white;
+        color: orangered;
+        cursor: pointer;
+        transition: 0.3s    ease;
+    }
     #contact-details{
         display: flex;
         flex-direction: row;
@@ -715,7 +729,102 @@ footer .copyright{
         margin-bottom: 40px;
         margin-right: 80px;
         margin-left: 80px;
+        background-size: cover;
+    
+
     }
+    .contact-box{
+        background-color: orange;
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+       
+    }
+   .contact-box li{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .contact-box li i{
+        font-size: 30px;
+        background-color: rgb(127, 206, 255);
+       
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        text-align: center;
+      
+        padding: 10px;
+        margin-left: 15px;
+    }
+    #contact-details li p{
+        margin: 0;
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    #contact-details form{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+        flex: 25%;
+    }
+    #contact-details .form{
+        margin-top: 40px;
+        padding: 10px;
+    }
+    #contact-details .form span{
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px;
+        
+    }
+    #contact-details .form h5{
+        font-weight: 400;
+        font-size: 14px;
+        padding: 10px;
+    }
+    #contact-details form input,
+    #contact-details form textarea{
+        width: 100%;
+        padding: 10px 13px;
+        outline: none;
+        margin-bottom: 10px;
+    }
+    #location{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    #location .map{
+        width: 70%;
+        height: 400px;
+        align-items: center;
+        margin: auto;
+
+        
+
+    }
+    #location .map iframe{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        margin: auto;
+
+    }
+    #location h3{
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    #location p{
+        font-size: 14px;
+        font-weight: 300px;
+        padding:10px;
+        color: grey;
+    }
+  
 
   
    
