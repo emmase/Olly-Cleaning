@@ -723,8 +723,8 @@ footer .copyright{
     #contact-details{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        justify-content:center;
+        align-items: flex-start;
         margin-top: 40px;
         margin-bottom: 40px;
         margin-right: 80px;
@@ -734,7 +734,7 @@ footer .copyright{
 
     }
     .contact-box{
-        background-color: whitesmoke;
+        background-color: white;
         box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
         width: 90%;
         height: auto;
@@ -749,8 +749,8 @@ footer .copyright{
     }
     .contact-box li i{
         font-size: 30px;
-        background-color: rgb(127, 206, 255);
-       
+        background-color:#000080;
+        color: orangered;
         width: 50px;
         height: 50px;
         border-radius: 100%;
@@ -763,40 +763,74 @@ footer .copyright{
         margin: 0;
         font-size: 14px;
         padding: 0 20px;
+        color: #000080;
     }
     #contact-details form{
-        width: 65%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         margin-top: 10px;
         flex: 25%;
+        
     }
     #contact-details .form{
-        margin-top: 40px;
         padding: 10px;
     }
     #contact-details .form span{
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 800;
         padding: 10px;
+        color: orangered;
         
     }
     #contact-details .form h5{
         font-weight: 400;
-        font-size: 14px;
+        font-size: 13px;
         padding: 10px;
+        color: #000080;
     }
-    #contact-details form input,
-    #contact-details form textarea{
+    #contact-details form input{
         width: 100%;
-        padding: 10px 13px;
+        height: 25px;
+        padding: 10px 10px;
         outline: none;
         margin-bottom: 10px;
+        border: 1px solid #000080;
+        border-radius: 4px;
+    }
+    #contact-details form textarea{
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        border: 1px solid #000080;
+        border-radius: 4px;
+    }
+    #contact-details button{
+        margin-top: 10px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        background-color: orangered;
+        height: 35px;
+        width: 120px;
+        background-repeat: no-repeat;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-decoration: none;
+        
+    }
+    #contact-details button:hover,
+    #contact-details button.active{
+        background-color:#000080;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s    ease;
     }
     #location{
         text-align: center;
-        margin-top: 10%;
+        margin-top: 2%;
         margin-bottom: 5%;
     }
     #location .map{
@@ -825,6 +859,21 @@ footer .copyright{
         padding:10px;
         color: grey;
     }
+    #follow-us{
+        text-align: center;
+    }
+    #follow-us i{
+        color:#000080 ;
+        padding-right: 4px;
+        cursor: pointer;
+        font-size: 25px;
+        padding-top: 10px;
+    
+    }
+    #follow-us i:hover{
+        color: orangered;
+    }
+    
   
 
   
