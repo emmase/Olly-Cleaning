@@ -64,6 +64,37 @@ p{
     
 
 }
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    display: none;
+    
+    
+}
+#navbar .ul li{
+    display: inline-block;
+}
+#navbar .ul li a{
+    color: white;
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+#navbar ul li {
+    display: block;
+    }
+    
+#navbar li:hover ul {
+    display: block;
+    }
+#navbar .ul li a:hover {
+    background-color:#000080;
+    }
 h1 {
     font-size: 50px;
     line-height: 64px;
