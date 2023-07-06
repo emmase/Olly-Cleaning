@@ -493,7 +493,9 @@ footer .col p{
     color: white;
     padding-left: 0;
 }
-footer a{
+#footer  .col .bottom-links a{
+    display: flex;
+    flex-direction: column;
     font-size: 13px;
     text-decoration: none;
     color: white;
@@ -989,7 +991,7 @@ footer .copyright{
         }  
         .logo   {
             width: 140px;
-            margin-left: -30px;
+            margin-left: -40px;
         }
         #over-view h1{
             font-size: 40px;
@@ -1110,7 +1112,7 @@ footer .copyright{
         }
         #newsletter .form{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             width: 100%;
             align-items: flex-start;
             padding-left: 10px;
@@ -1120,14 +1122,14 @@ footer .copyright{
             height: 3rem;
             padding: 0 1em;
             font-size: 14px;
-            width: 100%;
+            width: 80%;
             border: 1px solid transparent;
             border-radius: 4px;
             outline: none;
         }
         #newsletter .form .normal {
-            width: 15%;
-            height: 40px;
+            width: 20%;
+            height: 3rem;
             font-size: 16px;
             
         }
@@ -1168,7 +1170,9 @@ footer .copyright{
             padding-left: 0px;
             text-align: center;
         }
-        footer a{
+        #footer  .col .bottom-links a{
+            display: flex;
+            flex-direction: column;
             font-size: 10px;
             text-decoration: none;
             color: white;
@@ -1180,6 +1184,14 @@ footer .copyright{
         body {
             overflow-x: hidden;
             width: 100%;
+        }
+        #navbar.active{
+            right: -50px;
+        }
+        #mobile i{
+            color: white;
+            font-size: 30px;
+            padding-left: 15px;
         }
         #casual-cleaning .ser-box  {
             width: 100%;
@@ -1193,6 +1205,15 @@ footer .copyright{
             display: block;
             align-items: center;
             text-align: center;
+        }
+        #newsletter input{
+            height: 2.5rem;
+            padding: 0 1em;
+            font-size: 14px;
+            width: 90%;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            outline: none;
         }
         #newsletter .form .normal {
             width: 30%;
@@ -1223,6 +1244,16 @@ footer .copyright{
             padding-left: 60px;
             text-align: center;
         }
+        #footer  .col .bottom-links a{
+            display: inline-block;
+            padding: 5px;
+            font-size: 10px;
+            text-decoration: none;
+            color: white;
+            margin-bottom: 0px;
+
+        }
+        
 
     }
   
