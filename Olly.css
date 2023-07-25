@@ -16,12 +16,13 @@
         opacity: 1;
     }
 }
-.fade {
+.section-p1, .ser-box, .casual-text, .section-m1 {
     transition: opacity 0.7s ease-in;
   }
   
   .fadeOut { opacity: 0; }
   .fadeIn { opacity: 1; }
+  
 
 html{
     scroll-behavior: smooth;
