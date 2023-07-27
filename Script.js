@@ -48,20 +48,28 @@ if (close) {
     })
 }
 
-const header = document.querySelector('#header');
-const sectionOne = document.querySelector('#hero');
+const faders = document.querySelectorAll('.fade-in');
 
+const appearOptions ={
+  threshold: 1,
+  rootMargin: "0px 0px -200px 0px"
+};
 
-const sectionOneOptions = {};
+const appearOnScroll = new IntersectionObserver(function(
+  entries,
+  appearOnScroll
+){
+  entries.forEach(entry =>{
+    if (!entry.isIntersecting){
+      return;
+    }else{
+      entry.target.classList.add('appear');
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+},
+ appearOptions);
 
-const sectionOneObserver = new IntersectionObserver(function(
-  entries, 
-  sectionOneObserver
-  ){
-    entries.forEach(entry =>{
-      if (!entry.isIntersecting){
-        document.querySelector('#header').classList.add('.nav-scrolled');
-      }
-    })
-}, sectionOneOptions);
-sectionOneObserver.observe(sectionOne);
+ faders.forEach(fader =>{
+  appearOnScroll.observe(fader);
+ });

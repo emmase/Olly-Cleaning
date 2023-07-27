@@ -40,7 +40,7 @@ p{
     justify-content: space-between;
     padding: 20px 80px;
     background: #000080 ;
-    box-shadow: 0 5px   15px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px   15px rgba(3, 3, 3, 0.1);
     z-index: 999;
     position: sticky;
     top: 0;
@@ -90,11 +90,6 @@ p{
     
 
 }
-.nav-scrolled {
-    color:#000080 ;
-    background-color: #ffffff;
-    box-shadow: 0 3px 20px rgba(black, 0.2);
-  }
 
 h1 {
     font-size: 50px;
@@ -277,6 +272,13 @@ padding-bottom: 40px;
 }
 #services h6{
     color: #000080;
+}
+#over-view.fade-in{
+    opacity: 0;
+    transition: 250ms ease-in;
+}
+#over-view.fade-in.appear{
+    opacity: 1;
 }
 #hero .call-to-action{
     display: flex;
