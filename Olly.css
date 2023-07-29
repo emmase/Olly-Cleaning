@@ -365,9 +365,9 @@ padding-bottom: 40px;
 
 }
 #casual-cleaning .casual-text h5{
-    color: whitesmoke;
+    color: orange;
     background: transparent;
-    text-shadow: 0em 0em 0.3em rgba(0,0,0,0.92);
+    text-shadow: 0em 0em 0.3em rgba(255, 255, 255, 0.92);
 }
 #banner {
     display: flex;
