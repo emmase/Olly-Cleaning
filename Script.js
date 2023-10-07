@@ -18,7 +18,7 @@ var options = {
   "brandName":"Olly Cleaning Services",
   "brandSubTitle":"Typically replies within 10 minutes",
   "brandImg":"Images/logo.png",
-  "welcomeText":"Hi there!\nWelcome, how can we serve you today?",
+  "welcomeText":"Hi there!\nWelcome, what can we clean for you today?",
   "messageText":"Hello, ",
   "backgroundColor":"#0a5f54",
   "ctaText":"Start Chat",
